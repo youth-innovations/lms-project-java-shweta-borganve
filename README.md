@@ -1,3 +1,5 @@
+  [![HitCount](https://hits.dwyl.com/youth-innovations/LibraryManagementSystem.svg?style=flat-square)](http://hits.dwyl.com/youth-innovations/LibraryManagementSystem)
+  
 # Welcome to Our Engineering Community!
 
 **Welcome to our engineering community!** We're thrilled to **welcome** you on board. Engineering is a journey filled with **exciting challenges** and **rewarding triumphs**, and we're here to **wholeheartedly support** you every step of the way.
