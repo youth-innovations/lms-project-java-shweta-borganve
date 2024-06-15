@@ -1,2 +1,6 @@
-# LibraryManagementSystem
-Simple Library Management System Project
+```
+LibraryManagementSystem/
+├── src/
+│   ├── LibrarySystem.java
+│   └── Book.java
+```
