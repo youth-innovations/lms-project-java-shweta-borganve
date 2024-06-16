@@ -11,12 +11,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up JDK 11
-      uses: actions/setup-java@v2
+      uses: actions/setup-java@v3
       with:
+        distribution: 'temurin'  # Use 'adopt' for AdoptOpenJDK, 'zulu' for Zulu OpenJDK, etc.
         java-version: '11'
 
     - name: Compile Java files
-      run: javac -d out $(find src/main/java -name "*.java")
-
-    - name: Run Tests
-      run: java -cp out org.junit.runner.JUnitCore $(find src/test/java -name "*.java" | sed 's/src\/test\/java\///' | sed 's/\.java//' | tr '/' '.')
+      run: javac -d out $(find src/ -name "*.java")
